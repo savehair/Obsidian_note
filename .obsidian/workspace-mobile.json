@@ -11,6 +11,7 @@
             "id": "f394be1230715638",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "markdown",
               "state": {
                 "file": "未命名.md",
@@ -19,6 +20,12 @@
               },
               "icon": "lucide-file",
               "title": "未命名"
+=======
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+>>>>>>> origin/main
             }
           }
         ]
@@ -180,8 +187,13 @@
   },
   "active": "f394be1230715638",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "未命名 1.md",
     "未命名.md",
+=======
+    "未命名.md",
+    "未命名 1.md",
+>>>>>>> origin/main
     "未命名 2.md"
   ]
 }
