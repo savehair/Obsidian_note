@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "42e033d12e73c8c7",
+        "id": "6df705d21ad8b898",
         "type": "tabs",
         "children": [
           {
-            "id": "6b6385bc98e3582b",
+            "id": "5cfc07af4716c91a",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -109,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "未命名 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -190,11 +189,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6b6385bc98e3582b",
+  "active": "4ba328a783587598",
   "lastOpenFiles": [
     "未命名.md",
-    "assets/未命名/file-20251204225501260.png",
+    "conflict-files-obsidian-git.md",
     "assets/未命名/file-20251204225520370.png",
+    "assets/未命名/file-20251204225501260.png",
     "assets/未命名",
     "assets",
     "test1.md",

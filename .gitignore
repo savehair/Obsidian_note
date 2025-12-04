@@ -1,0 +1,25 @@
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian 本地状态（不同设备不需要同步）
+
+.obsidian/workspaces.json
+
+
+.DS_Store
+
+Thumbs.db
+
+*.tmp
+
+~$*#忽略缓存文件
+
+.obsidian/cache# 可选：不想同步的缓存/回收站
+
+.trash/#其他不建议同步的文件
+
+.obsidian/daily-notes.json
+
+.obsidian/facets.json
+
+.obsidian/starred.json
