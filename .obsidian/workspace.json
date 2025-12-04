@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ab30fef8c0988ab2",
+        "id": "6df705d21ad8b898",
         "type": "tabs",
         "children": [
           {
-            "id": "8eca8bfc2523aef4",
+            "id": "5cfc07af4716c91a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "未命名"
             }
+          },
+          {
+            "id": "d935253b0ae4ed9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,12 +128,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "未命名 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -194,11 +208,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8eca8bfc2523aef4",
+  "active": "d935253b0ae4ed9d",
   "lastOpenFiles": [
     "未命名.md",
-    "assets/未命名/file-20251204225501260.png",
+    "conflict-files-obsidian-git.md",
     "assets/未命名/file-20251204225520370.png",
+    "assets/未命名/file-20251204225501260.png",
     "assets/未命名",
     "assets",
     "test1.md",
