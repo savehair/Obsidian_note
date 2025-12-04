@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "42e033d12e73c8c7",
+        "id": "ab30fef8c0988ab2",
         "type": "tabs",
         "children": [
           {
-            "id": "6b6385bc98e3582b",
+            "id": "8eca8bfc2523aef4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -194,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6b6385bc98e3582b",
+  "active": "8eca8bfc2523aef4",
   "lastOpenFiles": [
     "未命名.md",
     "assets/未命名/file-20251204225501260.png",
