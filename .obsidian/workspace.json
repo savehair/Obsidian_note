@@ -30,8 +30,19 @@
               "icon": "lucide-file",
               "title": "第一章： 可视化概述"
             }
+          },
+          {
+            "id": "de828a7a4920e480",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {},
+              "icon": "gear",
+              "title": "Style Settings"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,7 +215,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa2c2925a6b0b155",
+  "active": "de828a7a4920e480",
   "lastOpenFiles": [
     "大数据可视化/assets/第一章： 可视化概述/file-20251206175200321.png",
     "大数据可视化/assets/第一章： 可视化概述/file-20251206175128938.png",
