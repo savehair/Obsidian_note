@@ -189,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,6 +245,7 @@
   },
   "active": "49833fedd95cfd8f",
   "lastOpenFiles": [
+    "大数据可视化/assets/第三章 数据可视化过程/file-20251206211140681.png",
     "大数据可视化/assets/第三章 数据可视化过程/file-20251206210604379.png",
     "大数据可视化/assets/第三章 数据可视化过程",
     "大数据可视化/第二章：可视化理论.md",
