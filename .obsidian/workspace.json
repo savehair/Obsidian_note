@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test"
+              "title": "未命名"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "5cfc07af4716c91a",
   "lastOpenFiles": [
-    "test.md",
     "未命名.md",
+    "test.md",
     "conflict-files-obsidian-git.md",
     "assets/未命名/file-20251204225520370.png",
     "assets/未命名/file-20251204225501260.png",
