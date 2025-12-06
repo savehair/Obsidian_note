@@ -43,6 +43,22 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "ac75e499c7dc269a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f46a8297a1959a25",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {},
+              "icon": "gear",
+              "title": "Style Settings"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
