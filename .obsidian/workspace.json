@@ -8,45 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5cfc07af4716c91a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大数据可视化/复习.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "复习"
-            }
-          },
-          {
             "id": "fa2c2925a6b0b155",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大数据可视化/复习.md",
+                "file": "大数据可视化/第一章： 可视化概述.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "复习"
-            }
-          },
-          {
-            "id": "0609bc69a6096dfe",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {},
-              "icon": "gear",
-              "title": "Style Settings"
+              "title": "第一章： 可视化概述"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,10 +204,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0609bc69a6096dfe",
+  "active": "fa2c2925a6b0b155",
   "lastOpenFiles": [
+    "大数据可视化/第一章： 可视化概述.md",
     "未命名.md",
-    "大数据可视化/复习.md",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "2025-12-06.md",
     "大数据可视化",
     "test.md",
     "conflict-files-obsidian-git.md",

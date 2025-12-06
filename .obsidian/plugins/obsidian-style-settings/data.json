@@ -7,10 +7,11 @@
   "anuppuccin-theme-settings@@anp-colorful-frame": true,
   "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-light": false,
   "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
-  "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-full-rainbow-color-toggle",
-  "anuppuccin-theme-settings@@anp-rainbow-file-toggle": false,
-  "anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-light": false,
-  "anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-dark": false,
-  "anuppuccin-theme-settings@@anp-simple-rainbow-title-toggle": false,
-  "anuppuccin-theme-settings@@anp-simple-rainbow-collapse-icon-toggle": false
+  "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-simple-rainbow-color-toggle",
+  "anuppuccin-theme-settings@@anp-simple-rainbow-title-toggle": true,
+  "anuppuccin-theme-settings@@anp-simple-rainbow-collapse-icon-toggle": true,
+  "anuppuccin-theme-settings@@anp-rainbow-subfolder-color-toggle": true,
+  "anuppuccin-theme-settings@@anp-simple-rainbow-icon-toggle": true,
+  "anuppuccin-theme-settings@@anp-simple-rainbow-indentation-toggle": true,
+  "anp-custom-rainbow-colors@@rainbow-color-1-default": "rainbow-color-1-rosewater"
 }
