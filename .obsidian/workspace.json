@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "大数据可视化/复习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "复习"
             }
           }
         ]
@@ -197,6 +197,8 @@
   "active": "5cfc07af4716c91a",
   "lastOpenFiles": [
     "未命名.md",
+    "大数据可视化/复习.md",
+    "大数据可视化",
     "test.md",
     "conflict-files-obsidian-git.md",
     "assets/未命名/file-20251204225520370.png",
