@@ -13,22 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大数据可视化/第一章：可视化概述.md",
+                "file": "大数据可视化/第二章：可视化理论.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "第一章：可视化概述"
+              "title": "第二章：可视化理论"
             }
           }
         ]
@@ -104,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "大数据可视化/第二章：可视化理论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "未命名 的反向链接列表"
+              "title": "第二章：可视化理论 的反向链接列表"
             }
           },
           {
@@ -184,8 +174,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -228,16 +217,6 @@
                   "icon": "lucide-file",
                   "title": "第二章：可视化理论"
                 }
-              },
-              {
-                "id": "33054396d3354361",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "新标签页"
-                }
               }
             ]
           }
@@ -254,10 +233,14 @@
   },
   "active": "49833fedd95cfd8f",
   "lastOpenFiles": [
-    "大数据可视化/第二章：可视化理论.md",
     "大数据可视化/第一章：可视化概述.md",
-    "大数据可视化/assets/第一章：可视化概述",
+    "大数据可视化/第二章：可视化理论.md",
+    "大数据可视化/assets/第二章：可视化理论/file-20251206194414152.jpg",
+    "大数据可视化/assets/第一章：可视化概述/file-20251206194300728.jpg",
+    "大数据可视化/assets/第二章：可视化理论/file-20251206194009986.png",
+    "大数据可视化/assets/第二章：可视化理论",
     "未命名.md",
+    "大数据可视化/assets/第一章：可视化概述",
     "大数据可视化/assets/第一章：可视化概述/file-20251206184729549.png",
     "大数据可视化/assets/第一章：可视化概述/file-20251206184729550.png",
     "大数据可视化/assets/第一章： 可视化概述",
