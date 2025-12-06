@@ -1,7 +1,6 @@
 {
   "cssTheme": "AnuPpuccin",
-  "enabledCssSnippets": [
-    "extended-colorschemes"
-  ],
-  "accentColor": ""
+  "enabledCssSnippets": [],
+  "accentColor": "",
+  "theme": "moonstone"
 }

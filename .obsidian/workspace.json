@@ -4,11 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "6df705d21ad8b898",
+        "id": "7046b256715bef14",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "fa2c2925a6b0b155",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "大数据可视化/第一章： 可视化概述.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "第一章： 可视化概述"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a58d112b353e5739",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "49833fedd95cfd8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,33 +61,6 @@
               },
               "icon": "lucide-file",
               "title": "第一章： 可视化概述"
-            }
-          },
-          {
-            "id": "de828a7a4920e480",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {},
-              "icon": "gear",
-              "title": "Style Settings"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "ac75e499c7dc269a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f46a8297a1959a25",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {},
-              "icon": "gear",
-              "title": "Style Settings"
             }
           }
         ]
@@ -231,7 +236,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "de828a7a4920e480",
+  "active": "49833fedd95cfd8f",
   "lastOpenFiles": [
     "大数据可视化/assets/第一章： 可视化概述/file-20251206175200321.png",
     "大数据可视化/assets/第一章： 可视化概述/file-20251206175128938.png",
