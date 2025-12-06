@@ -20,6 +20,16 @@
               "icon": "lucide-file",
               "title": "第二章：可视化理论"
             }
+          },
+          {
+            "id": "718755c6eb19a4e8",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {},
+              "icon": "gear",
+              "title": "Style Settings"
+            }
           }
         ]
       }
