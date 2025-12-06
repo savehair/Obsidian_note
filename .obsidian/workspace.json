@@ -184,7 +184,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -241,8 +242,10 @@
       }
     ]
   },
-  "active": "e1ce799210f6e535",
+  "active": "49833fedd95cfd8f",
   "lastOpenFiles": [
+    "大数据可视化/assets/第三章 数据可视化过程/file-20251206210604379.png",
+    "大数据可视化/assets/第三章 数据可视化过程",
     "大数据可视化/第二章：可视化理论.md",
     "大数据可视化/第三章 数据可视化过程.md",
     "大数据可视化/assets/第二章：可视化理论/file-20251206204341091.png",
