@@ -2,5 +2,6 @@
   "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
     "extended-colorschemes"
-  ]
+  ],
+  "accentColor": ""
 }
