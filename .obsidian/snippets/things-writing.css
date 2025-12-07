@@ -1,9 +1,54 @@
-/* 修复 Things Theme 代码块左边挤压导致首字不清晰 */
-pre code {
-    padding-left: 0 !important;
-    margin-left: 0 !important;
+/* ===== 黑金主题基础背景 ===== */
+body.theme-dark {
+    --background-primary: #0B0B0D !important; /* 主背景，深黑带一点暖调 */
+    --background-primary-alt: #0D0D10 !important;
+    --background-secondary: #111114 !important;
+    --background-secondary-alt: #141417 !important;
+    --text-normal: #E8E0C8 !important; /* 正文字体为柔和金米色 */
+    --text-muted: #9E9378 !important; /* 次要文字变淡金灰 */
 }
 
-.cm-lineNumbers {
-    padding-right: 4px !important;
+/* 分割线淡金 */
+hr {
+    border-color: rgba(255, 215, 128, 0.25) !important;
+}
+
+/* ===== 链接使用暗金 ===== */
+.theme-dark a {
+    color: #F2C572 !important;
+}
+
+    .theme-dark a:hover {
+        color: #FFD98A !important;
+    }
+
+/* ===== 标题金色层级 ===== */
+.theme-dark h1 {
+    color: #FFE4A0 !important;
+}
+
+.theme-dark h2 {
+    color: #F6D58C !important;
+}
+
+.theme-dark h3 {
+    color: #E8C379 !important;
+}
+
+.theme-dark h4 {
+    color: #D5B06B !important;
+}
+
+.theme-dark h5 {
+    color: #C29E5E !important;
+}
+
+.theme-dark h6 {
+    color: #9E8350 !important;
+}
+
+/* ===== 选中文本金色反转 ===== */
+::selection {
+    background: #F0C978 !important;
+    color: #0B0B0D !important;
 }

@@ -1,6 +1,8 @@
 {
   "cssTheme": "Things",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "dark-gold+purple"
+  ],
   "accentColor": "",
   "theme": "obsidian"
 }

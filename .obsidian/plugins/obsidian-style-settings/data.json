@@ -32,7 +32,7 @@
   "things-style@@mobile-black-background": false,
   "things-style@@default-font-color": false,
   "things-style@@no-kanban-styles": false,
-  "things-style@@fancy-highlight": true,
+  "things-style@@fancy-highlight": false,
   "things-style@@fancy-code": true,
   "things-style@@active-line": false,
   "things-style@@floating-button-off": false,
@@ -41,6 +41,6 @@
   "things-style@@progress-color-4": "#DCF68A",
   "things-style@@progress-color-2": "#ED9B52",
   "things-style@@progress-color-1": "#F45E60",
-  "things-style@@progress-color": true,
-  "things-style@@text-highlight-bg-d": "#000000"
+  "things-style@@progress-color": false,
+  "things-style@@text-highlight-bg-d": "#FFD278"
 }

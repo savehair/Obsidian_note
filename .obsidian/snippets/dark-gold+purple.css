@@ -1,0 +1,246 @@
+/***** Dark Gold + Purple Mix for Things Theme *****/
+
+/* ===== 1. 深色背景 & 基础文字 ===== */
+body.theme-dark {
+    /* 更深、更干净的暗色背景 */
+    --background-primary: #070609 !important;
+    --background-primary-alt: #0A090E !important;
+    --background-secondary: #0D0C11 !important;
+    --background-secondary-alt: #111018 !important;
+    /* 正文 & 次级文字：柔和暗金色系 */
+    --text-normal: #E9DFC7 !important; /* 主文字：米金色，不刺眼 */
+    --text-muted: #9F9277 !important; /* 次要文字：灰金 */
+    --text-faint: #716754 !important;
+}
+
+/* 面板 & 设置区域稍微提亮一点 */
+.theme-dark .setting-item,
+.theme-dark .mod-settings .vertical-tab-content {
+    background-color: #0D0B10 !important;
+}
+
+/* 分割线带一点暗金 */
+.theme-dark hr {
+    border-color: rgba(255, 215, 140, 0.28) !important;
+}
+
+/* ===== Version C：暗金 → 紫金（带微光效果）===== */
+
+/* 发光函数 */
+:root {
+    --glow-light: 0 0 12px;
+}
+
+/* H1：金光 */
+.theme-dark .markdown-preview-view h1,
+.theme-dark .cm-header-1 {
+    color: #FFE8A3 !important;
+    text-shadow: 0 0 10px rgba(255,215,150,0.4);
+}
+
+/* H2：深金光 */
+.theme-dark .markdown-preview-view h2,
+.theme-dark .cm-header-2 {
+    color: #F4C766 !important;
+    text-shadow: 0 0 10px rgba(255,200,120,0.3);
+}
+
+/* H3：金紫光（快速进入紫区） */
+.theme-dark .markdown-preview-view h3,
+.theme-dark .cm-header-3 {
+    color: #D79DCD !important;
+    text-shadow: 0 0 13px rgba(210,140,230,0.35);
+}
+
+/* H4：紫金光 */
+.theme-dark .markdown-preview-view h4,
+.theme-dark .cm-header-4 {
+    color: #C774FF !important;
+    text-shadow: 0 0 13px rgba(180,100,255,0.45);
+}
+
+/* H5：亮紫金光 */
+.theme-dark .markdown-preview-view h5,
+.theme-dark .cm-header-5 {
+    color: #D28AFF !important;
+    text-shadow: 0 0 14px rgba(200,140,255,0.55);
+}
+
+/* H6：电光紫金光（最亮） */
+.theme-dark .markdown-preview-view h6,
+.theme-dark .cm-header-6 {
+    color: #E9B1FF !important;
+    text-shadow: 0 0 16px rgba(238,160,255,0.75);
+}
+
+
+
+
+/* 标题下方轻微暗金细线（可选） */
+.theme-dark h1,
+.theme-dark h2 {
+    border-bottom: 1px solid rgba(255, 215, 140, 0.22);
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.7rem;
+}
+
+/* ===== 3. 链接：暗金 → 紫金 Hover ===== */
+.theme-dark a {
+    color: #F2C572 !important; /* 默认暗金 */
+}
+
+    .theme-dark a:hover {
+        color: #D6A9FF !important; /* 悬停变成紫金高光 */
+        text-decoration: underline;
+    }
+
+/* 内部链接稍微偏紫一点，和外链有区分 */
+.theme-dark .internal-link {
+    color: #E6BCFF !important;
+}
+
+    .theme-dark .internal-link:hover {
+        color: #FFD98A !important;
+    }
+
+/* ===== 4. 文本高亮、粗体、斜体 等（对应 Typography 里设置） ===== */
+
+/* 高亮 ==text==：金色光晕 */
+.markdown-rendered mark,
+.cm-s-obsidian span.cm-highlight {
+    background-color: rgba(255, 210, 120, 0.30) !important;
+    color: #1A1710 !important;
+}
+
+/* 粗体：亮金 */
+strong, b,
+.cm-s-obsidian span.cm-strong {
+    color: #FFD271 !important;
+    font-weight: 700;
+}
+
+/* 斜体：略淡的金米色 */
+em, i,
+.cm-s-obsidian span.cm-em {
+    color: #C8B88A !important;
+    font-style: italic;
+}
+
+/* 引用文字 & 引用框 */
+.cm-quote,
+.markdown-rendered blockquote {
+    color: #E1CFA3 !important;
+    border-left: 3px solid rgba(255, 215, 155, 0.7);
+    background-color: rgba(18, 14, 6, 0.85);
+}
+
+/* ===== 5. 行内代码（inline code）===== */
+code,
+.cm-inline-code {
+    background-color: rgba(255, 210, 120, 0.15) !important;
+    color: #FFDD9A !important;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-family: var(--font-monospace);
+}
+
+/* ===== 6. 代码块（``` ```）暗金 + 紫金风 ===== */
+.theme-dark pre code {
+    background-color: #121018 !important;
+    border-radius: 8px;
+    padding: 10px 12px;
+    border: 1px solid rgba(190, 140, 80, 0.45);
+    box-shadow: 0 0 12px rgba(150, 110, 60, 0.25);
+}
+
+/* 如果你想缓解“吞字”，减小左侧挤压： */
+pre code {
+    padding-left: 10px !important;
+}
+
+/* 行号颜色偏紫金一点 */
+.cm-lineNumbers .cm-gutterElement {
+    color: #766584 !important;
+}
+
+/* ===== 7. 标签 #tag 暗金 + 咖啡底 ===== */
+.cm-hashtag,
+a.tag {
+    background-color: #2A2314 !important; /* 深咖啡底 */
+    color: #EBCB8B !important; /* 金色字 */
+    border-radius: 999px;
+    padding: 1px 8px;
+    font-size: 0.85em;
+}
+
+    /* Hover 时略带紫光 */
+    a.tag:hover {
+        background-color: #3A283D !important;
+        color: #F6E3B3 !important;
+    }
+
+/* ===== 8. 选中效果：金底黑字 ===== */
+::selection {
+    background: #F0C978 !important;
+    color: #0B0B0D !important;
+}
+
+/* ===== 9. Callout（提示块）金紫调和 ===== */
+.callout {
+    border-radius: 10px;
+    border: 1px solid rgba(223, 179, 116, 0.55);
+    background-color: rgba(11, 9, 5, 0.95);
+}
+
+.callout-title {
+    color: #F2C572 !important;
+}
+
+.callout[data-callout="info"] {
+    border-color: rgba(189, 147, 249, 0.65);
+}
+
+    .callout[data-callout="info"] .callout-title {
+        color: #D6A9FF !important;
+    }
+
+/* ===== 10. Progress 条（进度条）黑金 + 紫金 ===== */
+/* 如果你有用 progress 插件/语法，可以用这些色值配合 Typography 里设置 */
+
+.progress-low {
+    color: #C49A4A !important;
+}
+
+.progress-mid {
+    color: #E3B865 !important;
+}
+
+.progress-high {
+    color: #F0C978 !important;
+}
+
+.progress-full {
+    color: #FFD98A !important;
+}
+
+/* ===== 11. 设置面板 / 侧边栏小优化 ===== */
+.theme-dark .workspace-tab-header.is-active {
+    border-bottom: 2px solid #F2C572 !important;
+}
+
+.theme-dark .nav-folder-title,
+.theme-dark .nav-file-title {
+    color: #CDBE9B !important;
+}
+
+    .theme-dark .nav-file-title.is-active,
+    .theme-dark .nav-folder-title.is-active {
+        color: #FFE4A0 !important;
+    }
+
+    /* hover 高亮一点紫 */
+    .theme-dark .nav-file-title:hover,
+    .theme-dark .nav-folder-title:hover {
+        background-color: rgba(74, 46, 105, 0.4) !important;
+    }
+
