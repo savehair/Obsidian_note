@@ -1,6 +1,6 @@
 {
-  "anuppuccin-theme-settings-extended@@anp-theme-ext-light": true,
-  "anuppuccin-theme-settings-extended@@anp-theme-ext-dark": true,
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-light": false,
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-dark": false,
   "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": true,
   "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-atom-light",
   "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-dark": false,
@@ -21,12 +21,19 @@
   "anuppuccin-theme-settings@@anp-header-color-toggle": false,
   "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-lavender",
   "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
-  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha-old",
   "anuppuccin-theme-settings@@anp-custom-vault-toggle": false,
   "anuppuccin-theme-settings@@anp-rainbow-file-toggle": false,
   "anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-light": false,
-  "anuppuccin-theme-settings@@anp-active-line": "anp-current-line-border",
   "anuppuccin-theme-settings@@anp-codeblock-numbers": true,
   "anuppuccin-theme-settings@@anp-code-bg-color@@light": "#F7F7F7",
-  "anuppuccin-theme-settings@@anp-code-bg-color@@dark": "#1E1E2E"
+  "anuppuccin-theme-settings@@anp-code-bg-color@@dark": "#1E1E2E",
+  "anuppuccin-theme-settings@@ctp-custom-text@@dark": "#F8F8F2",
+  "anuppuccin-theme-settings@@ctp-custom-subtext0@@dark": "#CFCED2",
+  "things-style@@mobile-black-background": false,
+  "things-style@@default-font-color": false,
+  "things-style@@no-kanban-styles": false,
+  "things-style@@fancy-highlight": true,
+  "things-style@@fancy-code": true,
+  "things-style@@active-line": false,
+  "things-style@@floating-button-off": false
 }
