@@ -1,9 +1,10 @@
 {
   "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
-    "dark-gold+purple"
+    "dark-gold+purple",
+    "extended-colorschemes"
   ],
-  "accentColor": "#d9a441",
+  "accentColor": "#c9a86b",
   "theme": "obsidian",
   "showRibbon": true,
   "nativeMenus": false
