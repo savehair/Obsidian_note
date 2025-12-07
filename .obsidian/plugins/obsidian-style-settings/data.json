@@ -35,5 +35,12 @@
   "things-style@@fancy-highlight": true,
   "things-style@@fancy-code": true,
   "things-style@@active-line": false,
-  "things-style@@floating-button-off": false
+  "things-style@@floating-button-off": false,
+  "things-style@@progress-color-5": "#699AED",
+  "things-style@@progress-color-3": "#F5CF6D",
+  "things-style@@progress-color-4": "#DCF68A",
+  "things-style@@progress-color-2": "#ED9B52",
+  "things-style@@progress-color-1": "#F45E60",
+  "things-style@@progress-color": true,
+  "things-style@@text-highlight-bg-d": "#000000"
 }
