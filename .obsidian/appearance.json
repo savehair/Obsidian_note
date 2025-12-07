@@ -1,9 +1,9 @@
 {
-  "cssTheme": "Things",
+  "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
     "dark-gold+purple"
   ],
-  "accentColor": "",
+  "accentColor": "#d9a441",
   "theme": "obsidian",
   "showRibbon": true,
   "nativeMenus": false

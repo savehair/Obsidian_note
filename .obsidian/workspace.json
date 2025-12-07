@@ -8,31 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0dddbc55853f6951",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大数据可视化/第4章：可视化编程语言.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "第4章：可视化编程语言"
-            }
-          },
-          {
-            "id": "6a911e27e0098960",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {},
-              "icon": "gear",
-              "title": "Style Settings"
-            }
-          },
-          {
-            "id": "fded21b5fb8d51de",
+            "id": "a7f66763e2a5917c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -217,11 +193,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0dddbc55853f6951",
+  "active": "a7f66763e2a5917c",
   "lastOpenFiles": [
-    "大数据可视化/第3章：数据可视化过程.md",
-    "大数据可视化/第4章：可视化编程语言.md",
     "未命名.md",
+    "未命名.base",
+    "未命名.canvas",
+    "大数据可视化/第4章：可视化编程语言.md",
+    "大数据可视化/第3章：数据可视化过程.md",
     "大数据可视化/第2章：可视化理论.md",
     "大数据可视化/第5章： 结构化数据的可视化.md",
     "大数据可视化/第1章：可视化概述.md",
@@ -246,9 +224,7 @@
     "大数据可视化/assets/第3章：数据可视化过程",
     "大数据可视化/assets/第2章：可视化理论",
     "大数据可视化/assets/第1章：可视化概述",
-    "大数据可视化/assets/第三章：数据可视化过程",
     "未命名 1.canvas",
-    "未命名.canvas",
     "2025-12-06.md",
     "test.md",
     "conflict-files-obsidian-git.md",

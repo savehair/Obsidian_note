@@ -3,5 +3,6 @@
   "useMarkdownLinks": false,
   "newLinkFormat": "relative",
   "showLineNumber": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "livePreview": true
 }

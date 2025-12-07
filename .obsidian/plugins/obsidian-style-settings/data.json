@@ -19,7 +19,7 @@
   "anuppuccin-theme-settings@@anp-italic-custom": "none",
   "anuppuccin-theme-settings@@anp-decoration-toggle": true,
   "anuppuccin-theme-settings@@anp-header-color-toggle": false,
-  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-lavender",
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-rosewater",
   "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
   "anuppuccin-theme-settings@@anp-custom-vault-toggle": false,
   "anuppuccin-theme-settings@@anp-rainbow-file-toggle": false,
@@ -29,13 +29,8 @@
   "anuppuccin-theme-settings@@anp-code-bg-color@@dark": "#1E1E2E",
   "anuppuccin-theme-settings@@ctp-custom-text@@dark": "#F8F8F2",
   "anuppuccin-theme-settings@@ctp-custom-subtext0@@dark": "#CFCED2",
-  "things-style@@mobile-black-background": false,
   "things-style@@default-font-color": false,
   "things-style@@no-kanban-styles": false,
-  "things-style@@fancy-highlight": false,
-  "things-style@@fancy-code": false,
-  "things-style@@active-line": false,
-  "things-style@@floating-button-off": false,
   "things-style@@progress-color-5": "#699AED",
   "things-style@@progress-color-3": "#F5CF6D",
   "things-style@@progress-color-4": "#DCF68A",
@@ -43,5 +38,6 @@
   "things-style@@progress-color-1": "#F45E60",
   "things-style@@progress-color": false,
   "things-style@@text-highlight-bg-d": "#FFD278",
-  "things-style@@h2-underline": false
+  "things-style@@h2-underline": false,
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha"
 }

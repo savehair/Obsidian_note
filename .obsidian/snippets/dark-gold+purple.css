@@ -191,11 +191,4 @@ pre code {
 /* 行号颜色偏紫金一点 */
 .cm-lineNumbers .cm-gutterElement {
     color: #766
-   
-    /* 覆盖 Things 主题的语法高亮基础黄色（原本是红色） */
-    body.theme-dark
 
-{
-    /* 换成 JetBrains 的关键字黄，不刺眼 */
-    --atom-yellow: #FFC66D;
-}
