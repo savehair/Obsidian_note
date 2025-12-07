@@ -113,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "未命名/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "未命名 的出链列表"
             }
           },
           {
@@ -175,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -194,7 +195,7 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "cd4ed2f826066a8a",
+  "active": "9aa02cbd95332ecf",
   "lastOpenFiles": [
     "大数据可视化/第4章：可视化编程语言.md",
     "大数据可视化/第5章： 结构化数据的可视化.md",
