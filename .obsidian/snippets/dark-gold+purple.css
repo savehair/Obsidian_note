@@ -191,77 +191,11 @@ pre code {
 /* 行号颜色偏紫金一点 */
 .cm-lineNumbers .cm-gutterElement {
     color: #766
-    /* ============================
-   黑金 × JetBrains 配色补丁
-   预览 + 编辑 双端统一
-   ============================ */
-    /* -------- 预览模式（Prism） -------- */
-    /* 1. 所有 token 先重置为“稍亮灰蓝” */
-    .theme-dark .markdown-preview-view code[class*="language-"] .token
+   
+    /* 覆盖 Things 主题的语法高亮基础黄色（原本是红色） */
+    body.theme-dark
 
 {
-    color: #C5D0E0 !important; /* 整体比原来亮一点 */
-    font-family: "JetBrains Mono", monospace !important;
-}
-
-/* 2. 关键字 / None / True / False → JetBrains 风格淡黄 */
-.theme-dark .markdown-preview-view code[class*="language-"] .token.keyword,
-.theme-dark .markdown-preview-view code[class*="language-"] .token.boolean,
-.theme-dark .markdown-preview-view code[class*="language-"] .token.constant {
-    color: #FFD27D !important;
-}
-
-/* 3. 函数名 sns.histplot / kdeplot 等 → 紫金蓝 */
-.theme-dark .markdown-preview-view code[class*="language-"] .token.function {
-    color: #8FA2FF !important; /* 带一点紫味的蓝 */
-}
-
-/* 4. 字符串 "变量名" → 玫瑰金 */
-.theme-dark .markdown-preview-view code[class*="language-"] .token.string {
-    color: #E6A07C !important; /* 玫瑰金色 */
-}
-
-/* 5. 数字 bins=20 之类 → 淡紫数字色 */
-.theme-dark .markdown-preview-view code[class*="language-"] .token.number {
-    color: #C58BFF !important;
-}
-
-/* 6. 符号 / 参数名 等继续用基础色即可，不再允许主题上红色 */
-.theme-dark .markdown-preview-view code[class*="language-"] .token.operator,
-.theme-dark .markdown-preview-view code[class*="language-"] .token.punctuation,
-.theme-dark .markdown-preview-view code[class*="language-"] .token.attr-name,
-.theme-dark .markdown-preview-view code[class*="language-"] .token.property,
-.theme-dark .markdown-preview-view code[class*="language-"] .token.builtin {
-    color: #C5D0E0 !important;
-}
-
-
-/* -------- 编辑模式（CodeMirror / 源码视图） -------- */
-
-/* 1. 先重置所有 cm-token 为基础色（稍亮灰蓝） */
-.markdown-source-view.mod-cm6 .cm-s-obsidian span[class^="cm-"] {
-    color: #C5D0E0 !important;
-    font-family: "JetBrains Mono", monospace !important;
-}
-
-/* 2. 关键字 / None / True / False → 淡黄 */
-.markdown-source-view.mod-cm6 .cm-s-obsidian .cm-keyword,
-.markdown-source-view.mod-cm6 .cm-s-obsidian .cm-atom {
-    color: #FFD27D !important;
-}
-
-/* 3. 字符串 → 玫瑰金 */
-.markdown-source-view.mod-cm6 .cm-s-obsidian .cm-string {
-    color: #E6A07C !important;
-}
-
-/* 4. 数字 → 淡紫 */
-.markdown-source-view.mod-cm6 .cm-s-obsidian .cm-number {
-    color: #C58BFF !important;
-}
-
-/* 5. 函数 / 定义名 → 紫金蓝 */
-.markdown-source-view.mod-cm6 .cm-s-obsidian .cm-variable,
-.markdown-source-view.mod-cm6 .cm-s-obsidian .cm-def {
-    color: #8FA2FF !important;
+    /* 换成 JetBrains 的关键字黄，不刺眼 */
+    --atom-yellow: #FFC66D;
 }
