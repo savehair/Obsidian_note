@@ -35,42 +35,42 @@ body.theme-dark {
 .theme-dark .markdown-preview-view h1,
 .theme-dark .cm-header-1 {
     color: #FFE8A3 !important;
-    text-shadow: 0 0 10px rgba(255,215,150,0.4);
+    text-shadow: 0 0 8px rgba(255,215,150,0.4);
 }
 
 /* H2：深金光 */
 .theme-dark .markdown-preview-view h2,
 .theme-dark .cm-header-2 {
     color: #F4C766 !important;
-    text-shadow: 0 0 10px rgba(255,200,120,0.3);
+    text-shadow: 0 0 9px rgba(255,200,120,0.3);
 }
 
 /* H3：金紫光（快速进入紫区） */
 .theme-dark .markdown-preview-view h3,
 .theme-dark .cm-header-3 {
     color: #D79DCD !important;
-    text-shadow: 0 0 13px rgba(210,140,230,0.35);
+    text-shadow: 0 0 11px rgba(210,140,230,0.35);
 }
 
 /* H4：紫金光 */
 .theme-dark .markdown-preview-view h4,
 .theme-dark .cm-header-4 {
     color: #C774FF !important;
-    text-shadow: 0 0 13px rgba(180,100,255,0.45);
+    text-shadow: 0 0 11px rgba(180,100,255,0.45);
 }
 
 /* H5：亮紫金光 */
 .theme-dark .markdown-preview-view h5,
 .theme-dark .cm-header-5 {
     color: #D28AFF !important;
-    text-shadow: 0 0 14px rgba(200,140,255,0.55);
+    text-shadow: 0 0 12px rgba(200,140,255,0.55);
 }
 
 /* H6：电光紫金光（最亮） */
 .theme-dark .markdown-preview-view h6,
 .theme-dark .cm-header-6 {
     color: #E9B1FF !important;
-    text-shadow: 0 0 16px rgba(238,160,255,0.75);
+    text-shadow: 0 0 14px rgba(238,160,255,0.75);
 }
 
 
@@ -243,4 +243,65 @@ a.tag {
     .theme-dark .nav-folder-title:hover {
         background-color: rgba(74, 46, 105, 0.4) !important;
     }
+
+/* ===== 黑金主题：高对比代码配色（不再使用黄色） ===== */
+
+/* 1. 使用 JetBrains Mono */
+code,
+pre,
+.cm-s-obsidian span.cm-code {
+    font-family: "JetBrains Mono", monospace !important;
+    font-size: 0.95em;
+}
+
+/* === 色彩体系 ===
+   金色（暖） → 关键字
+   青蓝（冷） → 函数/方法
+   紫金（冷亮） → 字符串/属性
+   米金（中性） → 变量名
+*/
+
+/* 关键字：def / import / return */
+.cm-keyword {
+    color: #FFB85C !important; /* 暖金橙 */
+    font-weight: 600;
+}
+
+/* 函数名：FacetGrid / scatterplot / map */
+.cm-variable,
+.cm-variable-2,
+.cm-variable-3 {
+    color: #62D3FF !important; /* 高饱和青蓝，和金完全区分 */
+}
+
+/* 属性 sns. 或 g. */
+.cm-property {
+    color: #C79BFF !important; /* 亮紫金 */
+}
+
+/* 变量 df / g / X / Y */
+.cm-def {
+    color: #D8C7A3 !important; /* 米金色，中性不抢眼 */
+}
+
+/* 字符串 "变量X" */
+.cm-string {
+    color: #E7B5FF !important; /* 明亮紫色，极易区分 */
+}
+
+/* 数字 */
+.cm-number {
+    color: #7FC8A9 !important; /* 青绿色，和所有颜色不同 */
+}
+
+/* 操作符(= , . (  等) */
+.cm-operator {
+    color: #FFD8A9 !important; /* 浅金色 */
+}
+
+/* 注释 */
+.cm-comment {
+    color: #6E6355 !important; /* 咖啡灰，不刺眼 */
+    font-style: italic;
+}
 
