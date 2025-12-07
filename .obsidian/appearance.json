@@ -4,5 +4,7 @@
     "dark-gold+purple"
   ],
   "accentColor": "",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "showRibbon": true,
+  "nativeMenus": false
 }
