@@ -15,7 +15,7 @@
     --dg-gold: #F2C572;
     --dg-gold-soft: #FFD271;
     --dg-gold-highlight: rgba(255, 215, 140, 0.36); /* 高亮对比 */
-
+    --dg-gold-highlight: rgba(255, 230, 150, 0.9) !important; /* 超亮金光 */
     --dg-purple-soft: #D6A9FF;
     --dg-purple-light: #E6BCFF;
     --font-monospace: "JetBrains Mono", "JetBrainsMono", monospace;
@@ -116,7 +116,10 @@ body.theme-dark {
 .markdown-rendered mark,
 .cm-s-obsidian span.cm-highlight {
     background-color: var(--dg-gold-highlight) !important;
-    color: #070609 !important;
+    color: #2a1f0e !important; /* 深棕金字，强对比 */
+    padding: 1px 4px;
+    border-radius: 3px;
+    text-shadow: 0 0 3px rgba(255, 240, 180, 0.6);
 }
 
 /* 粗体：亮金 */
@@ -191,4 +194,5 @@ pre code {
 /* 行号颜色偏紫金一点 */
 .cm-lineNumbers .cm-gutterElement {
     color: #766
+
 

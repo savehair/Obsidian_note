@@ -39,5 +39,9 @@
   "anp-custom-rainbow-colors@@rainbow-color-7-default": "rainbow-color-7-mauve",
   "anp-custom-rainbow-colors@@rainbow-color-6-default": "rainbow-color-6-pink",
   "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-block",
-  "anuppuccin-theme-settings@@anp-callout-color-toggle": true
+  "anuppuccin-theme-settings@@anp-callout-color-toggle": true,
+  "anuppuccin-theme-settings@@anp-custom-checkboxes": true,
+  "anuppuccin-theme-settings@@anp-speech-bubble": false,
+  "anuppuccin-theme-settings@@anp-codeblock-numbers": false,
+  "anuppuccin-theme-settings@@anp-active-line": "anp-current-line-border"
 }
