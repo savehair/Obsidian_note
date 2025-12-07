@@ -33,7 +33,7 @@
   "things-style@@default-font-color": false,
   "things-style@@no-kanban-styles": false,
   "things-style@@fancy-highlight": false,
-  "things-style@@fancy-code": true,
+  "things-style@@fancy-code": false,
   "things-style@@active-line": false,
   "things-style@@floating-button-off": false,
   "things-style@@progress-color-5": "#699AED",

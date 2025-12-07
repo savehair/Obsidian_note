@@ -244,64 +244,44 @@ a.tag {
         background-color: rgba(74, 46, 105, 0.4) !important;
     }
 
-/* ===== 黑金主题：高对比代码配色（不再使用黄色） ===== */
-
-/* 1. 使用 JetBrains Mono */
-code,
-pre,
-.cm-s-obsidian span.cm-code {
+/* ===== 1. 行内代码：只给非 <pre> 里的 code 上背景 ===== */
+:not(pre) > code,
+.cm-inline-code {
+    background-color: rgba(255, 210, 120, 0.15) !important;
+    color: #FFDD9A !important;
+    border-radius: 4px;
+    padding: 2px 4px;
     font-family: "JetBrains Mono", monospace !important;
-    font-size: 0.95em;
 }
 
-/* === 色彩体系 ===
-   金色（暖） → 关键字
-   青蓝（冷） → 函数/方法
-   紫金（冷亮） → 字符串/属性
-   米金（中性） → 变量名
-*/
-
-/* 关键字：def / import / return */
-.cm-keyword {
-    color: #FFB85C !important; /* 暖金橙 */
-    font-weight: 600;
+/* 去掉代码块每一行的小药丸背景 */
+pre code {
+    background: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
 }
 
-/* 函数名：FacetGrid / scatterplot / map */
-.cm-variable,
-.cm-variable-2,
-.cm-variable-3 {
-    color: #62D3FF !important; /* 高饱和青蓝，和金完全区分 */
+/* Obsidian 编辑模式里的代码块行也去掉背景 */
+.cm-s-obsidian .HyperMD-codeblock .cm-line code {
+    background: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
 }
 
-/* 属性 sns. 或 g. */
-.cm-property {
-    color: #C79BFF !important; /* 亮紫金 */
+/* ===== 2. 代码块整体样式（只包一层大框） ===== */
+.markdown-preview-view pre,
+.cm-s-obsidian .HyperMD-codeblock {
+    background-color: #121018 !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(190, 140, 80, 0.45) !important;
+    box-shadow: 0 0 12px rgba(150, 110, 60, 0.25);
+    padding: 10px 12px !important;
 }
 
-/* 变量 df / g / X / Y */
-.cm-def {
-    color: #D8C7A3 !important; /* 米金色，中性不抢眼 */
-}
-
-/* 字符串 "变量X" */
-.cm-string {
-    color: #E7B5FF !important; /* 明亮紫色，极易区分 */
-}
-
-/* 数字 */
-.cm-number {
-    color: #7FC8A9 !important; /* 青绿色，和所有颜色不同 */
-}
-
-/* 操作符(= , . (  等) */
-.cm-operator {
-    color: #FFD8A9 !important; /* 浅金色 */
-}
-
-/* 注释 */
-.cm-comment {
-    color: #6E6355 !important; /* 咖啡灰，不刺眼 */
-    font-style: italic;
-}
+    /* 代码块里真正的文本，用 JetBrains Mono */
+    .markdown-preview-view pre code,
+    .cm-s-obsidian .HyperMD-codeblock {
+        font-family: "JetBrains Mono", monospace !important;
+        font-size: 0.95em;
+    }
 
