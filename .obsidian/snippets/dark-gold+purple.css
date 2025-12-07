@@ -1,19 +1,37 @@
-/***** Dark Gold + Purple Mix for Things Theme *****/
+/***** Dark Gold + Purple Mix for Things Theme (Optimized) *****/
 
-/* ===== 1. 深色背景 & 基础文字 ===== */
-body.theme-dark {
-    /* 更深、更干净的暗色背景 */
-    --background-primary: #070609 !important;
-    --background-primary-alt: #0A090E !important;
-    --background-secondary: #0D0C11 !important;
-    --background-secondary-alt: #111018 !important;
-    /* 正文 & 次级文字：柔和暗金色系 */
-    --text-normal: #E9DFC7 !important; /* 主文字：米金色，不刺眼 */
-    --text-muted: #9F9277 !important; /* 次要文字：灰金 */
-    --text-faint: #716754 !important;
+/* ========= 0. 全局变量 ========= */
+:root {
+    /* 光晕 */
+    --glow-light: 0 0 12px;
+    /* 暗金 / 紫金主色 */
+    --dg-bg-primary: #070609;
+    --dg-bg-primary-alt: #0A090E;
+    --dg-bg-secondary: #0D0C11;
+    --dg-bg-secondary-alt: #111018;
+    --dg-text-normal: #E9DFC7; /* 主文字：米金色 */
+    --dg-text-muted: #9F9277; /* 次要文字 */
+    --dg-text-faint: #716754;
+    --dg-gold: #F2C572;
+    --dg-gold-soft: #FFD271;
+    --dg-gold-highlight: rgba(255, 215, 140, 0.28);
+    --dg-purple-soft: #D6A9FF;
+    --dg-purple-light: #E6BCFF;
+    --font-monospace: "JetBrains Mono", "JetBrainsMono", monospace;
 }
 
-/* 面板 & 设置区域稍微提亮一点 */
+/* ========= 1. 深色背景 & 基础文字 ========= */
+body.theme-dark {
+    --background-primary: var(--dg-bg-primary) !important;
+    --background-primary-alt: var(--dg-bg-primary-alt) !important;
+    --background-secondary: var(--dg-bg-secondary) !important;
+    --background-secondary-alt: var(--dg-bg-secondary-alt) !important;
+    --text-normal: var(--dg-text-normal) !important;
+    --text-muted: var(--dg-text-muted) !important;
+    --text-faint: var(--dg-text-faint) !important;
+}
+
+/* 设置面板稍微提亮一点 */
 .theme-dark .setting-item,
 .theme-dark .mod-settings .vertical-tab-content {
     background-color: #0D0B10 !important;
@@ -21,89 +39,80 @@ body.theme-dark {
 
 /* 分割线带一点暗金 */
 .theme-dark hr {
-    border-color: rgba(255, 215, 140, 0.28) !important;
+    border-color: var(--dg-gold-highlight) !important;
 }
 
-/* ===== Version C：暗金 → 紫金（带微光效果）===== */
-
-/* 发光函数 */
-:root {
-    --glow-light: 0 0 12px;
-}
-
+/* ========= 2. 标题：暗金 → 紫金（带微光） ========= */
 /* H1：金光 */
 .theme-dark .markdown-preview-view h1,
 .theme-dark .cm-header-1 {
     color: #FFE8A3 !important;
-    text-shadow: 0 0 8px rgba(255,215,150,0.4);
+    text-shadow: 0 0 8px rgba(255, 215, 150, 0.4);
 }
 
 /* H2：深金光 */
 .theme-dark .markdown-preview-view h2,
 .theme-dark .cm-header-2 {
     color: #F4C766 !important;
-    text-shadow: 0 0 9px rgba(255,200,120,0.3);
+    text-shadow: 0 0 9px rgba(255, 200, 120, 0.3);
 }
 
 /* H3：金紫光（快速进入紫区） */
 .theme-dark .markdown-preview-view h3,
 .theme-dark .cm-header-3 {
     color: #D79DCD !important;
-    text-shadow: 0 0 11px rgba(210,140,230,0.35);
+    text-shadow: 0 0 11px rgba(210, 140, 230, 0.35);
 }
 
 /* H4：紫金光 */
 .theme-dark .markdown-preview-view h4,
 .theme-dark .cm-header-4 {
     color: #C774FF !important;
-    text-shadow: 0 0 11px rgba(180,100,255,0.45);
+    text-shadow: 0 0 11px rgba(180, 100, 255, 0.45);
 }
 
 /* H5：亮紫金光 */
 .theme-dark .markdown-preview-view h5,
 .theme-dark .cm-header-5 {
     color: #D28AFF !important;
-    text-shadow: 0 0 12px rgba(200,140,255,0.55);
+    text-shadow: 0 0 12px rgba(200, 140, 255, 0.55);
 }
 
 /* H6：电光紫金光（最亮） */
 .theme-dark .markdown-preview-view h6,
 .theme-dark .cm-header-6 {
     color: #E9B1FF !important;
-    text-shadow: 0 0 14px rgba(238,160,255,0.75);
+    text-shadow: 0 0 14px rgba(238, 160, 255, 0.75);
 }
 
-
-
-
-/* 标题下方轻微暗金细线（可选） */
-.theme-dark h1,
-.theme-dark h2 {
+/* 标题下方轻微暗金细线（只给 H1/H2） */
+/*.theme-dark .markdown-preview-view h1,
+.theme-dark .markdown-preview-view h2 {
     border-bottom: 1px solid rgba(255, 215, 140, 0.22);
     padding-bottom: 0.25rem;
     margin-bottom: 0.7rem;
-}
+}*/
 
-/* ===== 3. 链接：暗金 → 紫金 Hover ===== */
+/* ========= 3. 链接：暗金 → 紫金 Hover ========= */
 .theme-dark a {
-    color: #F2C572 !important; /* 默认暗金 */
+    color: var(--dg-gold) !important; /* 默认暗金 */
 }
 
     .theme-dark a:hover {
-        color: #D6A9FF !important; /* 悬停变成紫金高光 */
+        color: var(--dg-purple-soft) !important; /* 悬停紫金高光 */
         text-decoration: underline;
     }
 
-/* 内部链接稍微偏紫一点，和外链有区分 */
+/* 内部链接稍微偏紫一点，和外链区分 */
 .theme-dark .internal-link {
-    color: #E6BCFF !important;
+    color: var(--dg-purple-light) !important;
 }
 
     .theme-dark .internal-link:hover {
         color: #FFD98A !important;
     }
 
-/* ===== 4. 文本高亮、粗体、斜体 等（对应 Typography 里设置） ===== */
+/* ========= 4. 文本高亮、粗体、斜体 ========= */
 
 /* 高亮 ==text==：金色光晕 */
 .markdown-rendered mark,
@@ -113,14 +122,16 @@ body.theme-dark {
 }
 
 /* 粗体：亮金 */
-strong, b,
+strong,
+b,
 .cm-s-obsidian span.cm-strong {
-    color: #FFD271 !important;
+    color: var(--dg-gold-soft) !important;
     font-weight: 700;
 }
 
 /* 斜体：略淡的金米色 */
-em, i,
+em,
+i,
 .cm-s-obsidian span.cm-em {
     color: #C8B88A !important;
     font-style: italic;
@@ -134,36 +145,48 @@ em, i,
     background-color: rgba(18, 14, 6, 0.85);
 }
 
-/* ===== 5. 行内代码（inline code）===== */
-code,
+/* ========= 5. 行内代码 / 代码块 ========= */
+
+/* 行内代码：只作用于非 <pre> 里的 code，避免代码块每行变“小药丸” */
+:not(pre) > code,
 .cm-inline-code {
     background-color: rgba(255, 210, 120, 0.15) !important;
     color: #FFDD9A !important;
     border-radius: 4px;
     padding: 2px 4px;
-    font-family: var(--font-monospace);
+    font-family: var(--font-monospace) !important;
 }
 
-/* ===== 6. 代码块（``` ```）暗金 + 紫金风 ===== */
-.theme-dark pre code {
-    background-color: #121018 !important;
-    border-radius: 8px;
-    padding: 10px 12px;
-    border: 1px solid rgba(190, 140, 80, 0.45);
-    box-shadow: 0 0 12px rgba(150, 110, 60, 0.25);
-}
-
-/* 如果你想缓解“吞字”，减小左侧挤压： */
+/* 代码块内部文本：去掉行内背景，只用外层卡片 */
 pre code {
-    padding-left: 10px !important;
+    background: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
 }
+
+/* 代码块整体（预览 + 编辑）：暗金卡片样式 */
+.markdown-preview-view pre,
+.cm-s-obsidian .HyperMD-codeblock {
+    background-color: #121018 !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(190, 140, 80, 0.45) !important;
+    box-shadow: 0 0 12px rgba(150, 110, 60, 0.25);
+    padding: 10px 12px !important;
+    font-family: var(--font-monospace) !important;
+    font-size: 0.95em;
+}
+
+    /* 左侧稍微留一点空间，防止“吞字感” */
+    .cm-s-obsidian .HyperMD-codeblock .cm-line {
+        padding-left: 4px;
+    }
 
 /* 行号颜色偏紫金一点 */
 .cm-lineNumbers .cm-gutterElement {
     color: #766584 !important;
 }
 
-/* ===== 7. 标签 #tag 暗金 + 咖啡底 ===== */
+/* ========= 6. 标签 #tag ========= */
 .cm-hashtag,
 a.tag {
     background-color: #2A2314 !important; /* 深咖啡底 */
@@ -173,19 +196,18 @@ a.tag {
     font-size: 0.85em;
 }
 
-    /* Hover 时略带紫光 */
     a.tag:hover {
-        background-color: #3A283D !important;
+        background-color: #3A283D !important; /* 带一点紫 */
         color: #F6E3B3 !important;
     }
 
-/* ===== 8. 选中效果：金底黑字 ===== */
+/* ========= 7. 选中效果 ========= */
 ::selection {
     background: #F0C978 !important;
     color: #0B0B0D !important;
 }
 
-/* ===== 9. Callout（提示块）金紫调和 ===== */
+/* ========= 8. Callout（提示块）========= */
 .callout {
     border-radius: 10px;
     border: 1px solid rgba(223, 179, 116, 0.55);
@@ -193,7 +215,7 @@ a.tag {
 }
 
 .callout-title {
-    color: #F2C572 !important;
+    color: var(--dg-gold) !important;
 }
 
 .callout[data-callout="info"] {
@@ -201,12 +223,10 @@ a.tag {
 }
 
     .callout[data-callout="info"] .callout-title {
-        color: #D6A9FF !important;
+        color: var(--dg-purple-soft) !important;
     }
 
-/* ===== 10. Progress 条（进度条）黑金 + 紫金 ===== */
-/* 如果你有用 progress 插件/语法，可以用这些色值配合 Typography 里设置 */
-
+/* ========= 9. Progress 条（进度条）========= */
 .progress-low {
     color: #C49A4A !important;
 }
@@ -223,9 +243,9 @@ a.tag {
     color: #FFD98A !important;
 }
 
-/* ===== 11. 设置面板 / 侧边栏小优化 ===== */
+/* ========= 10. 设置面板 / 侧边栏 ========= */
 .theme-dark .workspace-tab-header.is-active {
-    border-bottom: 2px solid #F2C572 !important;
+    border-bottom: 2px solid var(--dg-gold) !important;
 }
 
 .theme-dark .nav-folder-title,
@@ -238,39 +258,26 @@ a.tag {
         color: #FFE4A0 !important;
     }
 
-    /* hover 高亮一点紫 */
     .theme-dark .nav-file-title:hover,
     .theme-dark .nav-folder-title:hover {
         background-color: rgba(74, 46, 105, 0.4) !important;
     }
 
-/* ===== 1. 行内代码：只给非 <pre> 里的 code 上背景 ===== */
-:not(pre) > code,
-.cm-inline-code {
-    background-color: rgba(255, 210, 120, 0.15) !important;
-    color: #FFDD9A !important;
-    border-radius: 4px;
-    padding: 2px 4px;
-    font-family: "JetBrains Mono", monospace !important;
-}
-
-/* 去掉代码块每一行的小药丸背景 */
-pre code {
-    background: none !important;
-    padding: 0 !important;
-    border-radius: 0 !important;
-}
-
-/* Obsidian 编辑模式里的代码块行也去掉背景 */
-.cm-s-obsidian .HyperMD-codeblock .cm-line code {
-    background: none !important;
-    padding: 0 !important;
-    border-radius: 0 !important;
-}
-
-/* ===== 2. 代码块整体样式（只包一层大框） ===== */
-.markdown-preview-view pre,
+/* 1. 编辑模式代码块：去掉多层卡片，只保留简单背景 */
 .cm-s-obsidian .HyperMD-codeblock {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+    /* 行里稍微留一点缩进就够了 */
+    .cm-s-obsidian .HyperMD-codeblock .cm-line {
+        padding-left: 4px;
+    }
+
+/* 预览模式仍然是暗金卡片（避免被上面覆盖） */
+.markdown-preview-view pre {
     background-color: #121018 !important;
     border-radius: 8px !important;
     border: 1px solid rgba(190, 140, 80, 0.45) !important;
@@ -278,10 +285,29 @@ pre code {
     padding: 10px 12px !important;
 }
 
-    /* 代码块里真正的文本，用 JetBrains Mono */
-    .markdown-preview-view pre code,
-    .cm-s-obsidian .HyperMD-codeblock {
-        font-family: "JetBrains Mono", monospace !important;
-        font-size: 0.95em;
+    /* 2. 阅读模式：代码统一用柔和米金色，不要红色 */
+    .markdown-preview-view pre code {
+        color: #E9DFC7 !important; /* 跟正文同一套黑金系 */
+        font-family: "JetBrains Mono", "JetBrainsMono", monospace !important;
     }
 
+        /* 避免 Prism/主题再给子 span 上奇怪的红色 */
+        .markdown-preview-view pre code span {
+            color: inherit !important;
+        }
+
+/* ===== 移除 H1 & H2 的下划线/底部横线 ===== */
+
+/* H1 */
+.theme-dark .markdown-preview-view h1 {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0.6rem !important;
+}
+
+/* H2 */
+.theme-dark .markdown-preview-view h2 {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0.6rem !important;
+}
