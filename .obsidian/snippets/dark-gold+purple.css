@@ -1,4 +1,4 @@
-/***** Dark Gold + Purple Mix for Things Theme (Optimized) *****/
+/***** Dark Gold + Purple Mix for Things Theme (Cleaned & Boosted) *****/
 
 /* ========= 0. 全局变量 ========= */
 :root {
@@ -14,7 +14,8 @@
     --dg-text-faint: #716754;
     --dg-gold: #F2C572;
     --dg-gold-soft: #FFD271;
-    --dg-gold-highlight: rgba(255, 215, 140, 0.28);
+    --dg-gold-highlight: rgba(255, 215, 140, 0.36); /* 高亮对比 ↑ */
+
     --dg-purple-soft: #D6A9FF;
     --dg-purple-light: #E6BCFF;
     --font-monospace: "JetBrains Mono", "JetBrainsMono", monospace;
@@ -42,12 +43,15 @@ body.theme-dark {
     border-color: var(--dg-gold-highlight) !important;
 }
 
-/* ========= 2. 标题：暗金 → 紫金（带微光） ========= */
+/* ========= 2. 标题：暗金 → 紫金（带微光，无下划线） ========= */
+
 /* H1：金光 */
 .theme-dark .markdown-preview-view h1,
 .theme-dark .cm-header-1 {
     color: #FFE8A3 !important;
     text-shadow: 0 0 8px rgba(255, 215, 150, 0.4);
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
 }
 
 /* H2：深金光 */
@@ -55,6 +59,8 @@ body.theme-dark {
 .theme-dark .cm-header-2 {
     color: #F4C766 !important;
     text-shadow: 0 0 9px rgba(255, 200, 120, 0.3);
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
 }
 
 /* H3：金紫光（快速进入紫区） */
@@ -85,14 +91,6 @@ body.theme-dark {
     text-shadow: 0 0 14px rgba(238, 160, 255, 0.75);
 }
 
-/* 标题下方轻微暗金细线（只给 H1/H2） */
-/*.theme-dark .markdown-preview-view h1,
-.theme-dark .markdown-preview-view h2 {
-    border-bottom: 1px solid rgba(255, 215, 140, 0.22);
-    padding-bottom: 0.25rem;
-    margin-bottom: 0.7rem;
-}*/
-
 /* ========= 3. 链接：暗金 → 紫金 Hover ========= */
 .theme-dark a {
     color: var(--dg-gold) !important; /* 默认暗金 */
@@ -114,11 +112,11 @@ body.theme-dark {
 
 /* ========= 4. 文本高亮、粗体、斜体 ========= */
 
-/* 高亮 ==text==：金色光晕 */
+/* ==文本高亮==：提高对比（背景更亮，字更深） */
 .markdown-rendered mark,
 .cm-s-obsidian span.cm-highlight {
-    background-color: rgba(255, 210, 120, 0.30) !important;
-    color: #1A1710 !important;
+    background-color: var(--dg-gold-highlight) !important; /* 0.36 alpha，比原来更亮 */
+    color: #070609 !important; /* 深黑字，提高对比 */
 }
 
 /* 粗体：亮金 */
@@ -150,7 +148,7 @@ i,
 /* 行内代码：只作用于非 <pre> 里的 code，避免代码块每行变“小药丸” */
 :not(pre) > code,
 .cm-inline-code {
-    background-color: rgba(255, 210, 120, 0.15) !important;
+    background-color: rgba(255, 210, 120, 0.18) !important; /* 稍微比之前亮一点 */
     color: #FFDD9A !important;
     border-radius: 4px;
     padding: 2px 4px;
@@ -164,9 +162,8 @@ pre code {
     border-radius: 0 !important;
 }
 
-/* 代码块整体（预览 + 编辑）：暗金卡片样式 */
-.markdown-preview-view pre,
-.cm-s-obsidian .HyperMD-codeblock {
+/* 预览模式：暗金卡片 */
+.markdown-preview-view pre {
     background-color: #121018 !important;
     border-radius: 8px !important;
     border: 1px solid rgba(190, 140, 80, 0.45) !important;
@@ -176,7 +173,17 @@ pre code {
     font-size: 0.95em;
 }
 
-    /* 左侧稍微留一点空间，防止“吞字感” */
+/* 编辑模式代码块：简洁，不要多层框 */
+.cm-s-obsidian .HyperMD-codeblock {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    font-family: var(--font-monospace) !important;
+    font-size: 0.95em;
+}
+
+    /* 防止“吞字感”，左侧加一点缩进 */
     .cm-s-obsidian .HyperMD-codeblock .cm-line {
         padding-left: 4px;
     }
@@ -263,51 +270,3 @@ a.tag {
         background-color: rgba(74, 46, 105, 0.4) !important;
     }
 
-/* 1. 编辑模式代码块：去掉多层卡片，只保留简单背景 */
-.cm-s-obsidian .HyperMD-codeblock {
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-}
-
-    /* 行里稍微留一点缩进就够了 */
-    .cm-s-obsidian .HyperMD-codeblock .cm-line {
-        padding-left: 4px;
-    }
-
-/* 预览模式仍然是暗金卡片（避免被上面覆盖） */
-.markdown-preview-view pre {
-    background-color: #121018 !important;
-    border-radius: 8px !important;
-    border: 1px solid rgba(190, 140, 80, 0.45) !important;
-    box-shadow: 0 0 12px rgba(150, 110, 60, 0.25);
-    padding: 10px 12px !important;
-}
-
-    /* 2. 阅读模式：代码统一用柔和米金色，不要红色 */
-    .markdown-preview-view pre code {
-        color: #E9DFC7 !important; /* 跟正文同一套黑金系 */
-        font-family: "JetBrains Mono", "JetBrainsMono", monospace !important;
-    }
-
-        /* 避免 Prism/主题再给子 span 上奇怪的红色 */
-        .markdown-preview-view pre code span {
-            color: inherit !important;
-        }
-
-/* ===== 移除 H1 & H2 的下划线/底部横线 ===== */
-
-/* H1 */
-.theme-dark .markdown-preview-view h1 {
-    border-bottom: none !important;
-    padding-bottom: 0 !important;
-    margin-bottom: 0.6rem !important;
-}
-
-/* H2 */
-.theme-dark .markdown-preview-view h2 {
-    border-bottom: none !important;
-    padding-bottom: 0 !important;
-    margin-bottom: 0.6rem !important;
-}

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大数据可视化/第2章：可视化理论.md",
+                "file": "大数据可视化/第4章：可视化编程语言.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第2章：可视化理论"
+              "title": "第4章：可视化编程语言"
             }
           },
           {
@@ -38,14 +38,15 @@
               "type": "markdown",
               "state": {
                 "file": "大数据可视化/第4章：可视化编程语言.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "第4章：可视化编程语言"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -242,23 +243,8 @@
                   "icon": "lucide-file",
                   "title": "第3章：数据可视化过程"
                 }
-              },
-              {
-                "id": "6ffe6d2004ecdf55",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "大数据可视化/第4章：可视化编程语言.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "第4章：可视化编程语言"
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical",
@@ -271,12 +257,13 @@
       }
     ]
   },
-  "active": "0dddbc55853f6951",
+  "active": "fded21b5fb8d51de",
   "lastOpenFiles": [
     "大数据可视化/第3章：数据可视化过程.md",
     "大数据可视化/第4章：可视化编程语言.md",
-    "大数据可视化/第5章： 结构化数据的可视化.md",
+    "未命名.md",
     "大数据可视化/第2章：可视化理论.md",
+    "大数据可视化/第5章： 结构化数据的可视化.md",
     "大数据可视化/第1章：可视化概述.md",
     "大数据可视化/assets/第4章：可视化编程语言/file-20251207161105244.png",
     "大数据可视化/assets/第4章：可视化编程语言/file-20251207160626197.png",
@@ -293,7 +280,6 @@
     "未命名 1",
     "未命名",
     "机器学习",
-    "未命名.md",
     "未命名 1.md",
     "大数据可视化/assets/第2章：可视化理论/file-20251206222657079.png",
     "大数据可视化/assets/第2章：可视化理论/file-20251206222610942.png",

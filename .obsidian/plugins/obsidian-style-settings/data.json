@@ -42,5 +42,6 @@
   "things-style@@progress-color-2": "#ED9B52",
   "things-style@@progress-color-1": "#F45E60",
   "things-style@@progress-color": false,
-  "things-style@@text-highlight-bg-d": "#FFD278"
+  "things-style@@text-highlight-bg-d": "#FFD278",
+  "things-style@@h2-underline": false
 }
