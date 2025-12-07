@@ -1,4 +1,4 @@
-/***** Dark Gold + Purple Mix for Things Theme (Cleaned & Boosted) *****/
+/***** Dark Gold + Purple Mix for Things Theme (Optimized + JetBrains Code) *****/
 
 /* ========= 0. 全局变量 ========= */
 :root {
@@ -14,7 +14,7 @@
     --dg-text-faint: #716754;
     --dg-gold: #F2C572;
     --dg-gold-soft: #FFD271;
-    --dg-gold-highlight: rgba(255, 215, 140, 0.36); /* 高亮对比 ↑ */
+    --dg-gold-highlight: rgba(255, 215, 140, 0.36); /* 高亮对比 */
 
     --dg-purple-soft: #D6A9FF;
     --dg-purple-light: #E6BCFF;
@@ -112,11 +112,11 @@ body.theme-dark {
 
 /* ========= 4. 文本高亮、粗体、斜体 ========= */
 
-/* ==文本高亮==：提高对比（背景更亮，字更深） */
+/* ==文本高亮==：提高对比，亮金底 + 深色字 */
 .markdown-rendered mark,
 .cm-s-obsidian span.cm-highlight {
-    background-color: var(--dg-gold-highlight) !important; /* 0.36 alpha，比原来更亮 */
-    color: #070609 !important; /* 深黑字，提高对比 */
+    background-color: var(--dg-gold-highlight) !important;
+    color: #070609 !important;
 }
 
 /* 粗体：亮金 */
@@ -127,7 +127,7 @@ b,
     font-weight: 700;
 }
 
-/* 斜体：略淡的金米色 */
+/* 斜体：淡金米色 */
 em,
 i,
 .cm-s-obsidian span.cm-em {
@@ -145,10 +145,10 @@ i,
 
 /* ========= 5. 行内代码 / 代码块 ========= */
 
-/* 行内代码：只作用于非 <pre> 里的 code，避免代码块每行变“小药丸” */
+/* 行内代码：只作用于非 <pre> 里的 code */
 :not(pre) > code,
 .cm-inline-code {
-    background-color: rgba(255, 210, 120, 0.18) !important; /* 稍微比之前亮一点 */
+    background-color: rgba(255, 210, 120, 0.18) !important;
     color: #FFDD9A !important;
     border-radius: 4px;
     padding: 2px 4px;
@@ -190,83 +190,4 @@ pre code {
 
 /* 行号颜色偏紫金一点 */
 .cm-lineNumbers .cm-gutterElement {
-    color: #766584 !important;
-}
-
-/* ========= 6. 标签 #tag ========= */
-.cm-hashtag,
-a.tag {
-    background-color: #2A2314 !important; /* 深咖啡底 */
-    color: #EBCB8B !important; /* 金色字 */
-    border-radius: 999px;
-    padding: 1px 8px;
-    font-size: 0.85em;
-}
-
-    a.tag:hover {
-        background-color: #3A283D !important; /* 带一点紫 */
-        color: #F6E3B3 !important;
-    }
-
-/* ========= 7. 选中效果 ========= */
-::selection {
-    background: #F0C978 !important;
-    color: #0B0B0D !important;
-}
-
-/* ========= 8. Callout（提示块）========= */
-.callout {
-    border-radius: 10px;
-    border: 1px solid rgba(223, 179, 116, 0.55);
-    background-color: rgba(11, 9, 5, 0.95);
-}
-
-.callout-title {
-    color: var(--dg-gold) !important;
-}
-
-.callout[data-callout="info"] {
-    border-color: rgba(189, 147, 249, 0.65);
-}
-
-    .callout[data-callout="info"] .callout-title {
-        color: var(--dg-purple-soft) !important;
-    }
-
-/* ========= 9. Progress 条（进度条）========= */
-.progress-low {
-    color: #C49A4A !important;
-}
-
-.progress-mid {
-    color: #E3B865 !important;
-}
-
-.progress-high {
-    color: #F0C978 !important;
-}
-
-.progress-full {
-    color: #FFD98A !important;
-}
-
-/* ========= 10. 设置面板 / 侧边栏 ========= */
-.theme-dark .workspace-tab-header.is-active {
-    border-bottom: 2px solid var(--dg-gold) !important;
-}
-
-.theme-dark .nav-folder-title,
-.theme-dark .nav-file-title {
-    color: #CDBE9B !important;
-}
-
-    .theme-dark .nav-file-title.is-active,
-    .theme-dark .nav-folder-title.is-active {
-        color: #FFE4A0 !important;
-    }
-
-    .theme-dark .nav-file-title:hover,
-    .theme-dark .nav-folder-title:hover {
-        background-color: rgba(74, 46, 105, 0.4) !important;
-    }
-
+    color: #766

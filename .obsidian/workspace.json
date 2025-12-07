@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "大数据可视化/第4章：可视化编程语言.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -250,8 +250,8 @@
         "direction": "vertical",
         "x": -68,
         "y": 1440,
-        "width": 701,
-        "height": 920,
+        "width": 1404,
+        "height": 1840,
         "maximize": false,
         "zoom": 0
       }
