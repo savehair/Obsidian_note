@@ -1,8 +1,10 @@
 {
   "cssTheme": "Border",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "theme"
+  ],
   "accentColor": "#c9a86b",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "showRibbon": true,
   "nativeMenus": false
 }
