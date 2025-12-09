@@ -1,0 +1,14 @@
+/* 预览模式里的 ==高亮== */
+.markdown-preview-view mark,
+.markdown-rendered mark {
+    background-color: #FFC447 !important; /* 亮黄，但没那么刺眼 */
+    color: #000000 !important; /* 文字强制用黑色 */
+    padding: 1px 3px;
+    border-radius: 3px;
+}
+
+/* 编辑模式（Border 主题 + CM6）里的 ==高亮== */
+.markdown-source-view.mod-cm6 .cm-content span.cm-highlight {
+    background-color: #FFF176 !important;
+    color: #000000 !important;
+}

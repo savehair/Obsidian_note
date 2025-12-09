@@ -1,11 +1,10 @@
 {
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Border",
   "enabledCssSnippets": [
-    "dark-gold+purple",
-    "extended-colorschemes"
+    "theme"
   ],
   "accentColor": "#c9a86b",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "showRibbon": true,
   "nativeMenus": false
 }
