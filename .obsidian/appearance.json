@@ -1,9 +1,6 @@
 {
-  "cssTheme": "AnuPpuccin",
-  "enabledCssSnippets": [
-    "dark-gold+purple",
-    "extended-colorschemes"
-  ],
+  "cssTheme": "Blue Topaz",
+  "enabledCssSnippets": [],
   "accentColor": "#c9a86b",
   "theme": "obsidian",
   "showRibbon": true,

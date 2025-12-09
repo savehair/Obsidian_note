@@ -1,5 +1,5 @@
 {
-  "anuppuccin-theme-settings-extended@@anp-theme-ext-light": false,
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-light": true,
   "anuppuccin-theme-settings-extended@@anp-theme-ext-dark": true,
   "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": false,
   "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-atom-light",
@@ -43,5 +43,25 @@
   "anuppuccin-theme-settings@@anp-custom-checkboxes": true,
   "anuppuccin-theme-settings@@anp-speech-bubble": false,
   "anuppuccin-theme-settings@@anp-codeblock-numbers": false,
-  "anuppuccin-theme-settings@@anp-active-line": "anp-current-line-border"
+  "anuppuccin-theme-settings@@anp-active-line": "anp-current-line-border",
+  "blue-topaz-theme@@background-image-settings-switch": false,
+  "blue-topaz-theme@@background-notebook-liked-switch": false,
+  "blue-topaz-theme@@background-settings-workplace-background-image": false,
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-default",
+  "blue-topaz-theme@@background-image-settings-command-palette-switch": false,
+  "blue-topaz-theme@@left-ribbon-style": "hide-left-ribbon-retention-drawer",
+  "blue-topaz-theme@@bt-status-on": false,
+  "blue-topaz-theme@@scrollbar-style-option": "hover-scrollbars",
+  "blue-topaz-theme@@toggle-divider-lines": false,
+  "blue-topaz-theme@@view-button-front": false,
+  "blue-topaz-theme@@layout-style-options": "layout-style-options-rectangle",
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-material-palenight",
+  "Blue-Topaz-Codebox-Highlight@@mute-code-indent-line": false,
+  "Blue-Topaz-Codebox-Highlight@@code-line-number": true,
+  "Blue-Topaz-Codebox-Highlight@@remove-language-type": true,
+  "Blue-Topaz-Codebox-Highlight@@whole-code-wrap": false,
+  "Blue-Topaz-Codebox-Highlight@@letter-space-code": 0,
+  "Blue-Topaz-Codebox-Highlight@@blur-codebox-frosted-glass": 2,
+  "Blue-Topaz-Codebox-Highlight@@code-box-style-option": "codebox-default-style",
+  "Blue-Topaz-Codebox-Highlight@@nowrap-edit-codebox": false
 }
