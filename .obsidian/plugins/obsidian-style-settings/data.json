@@ -151,7 +151,7 @@
   "Components@@file-names-untrim": false,
   "Components@@colorful-folder": false,
   "Components@@file-icon-remove": false,
-  "Components@@outline-enhanced": false,
+  "Components@@outline-enhanced": true,
   "Appearance-dark@@card-highlight-dark": true,
   "Appearance-dark@@card-layout-open-dark": true,
   "Editor@@line-hover-indicator": true,
@@ -159,7 +159,7 @@
   "Editor@@border-focus-mode": false,
   "Editor@@collapse-icon-restore": false,
   "Editor@@img-center-align": true,
-  "Editor@@zoom-off": false,
+  "Editor@@zoom-off": true,
   "Editor@@img-darken": true,
   "Editor@@h1-divider-on": false,
   "Editor@@inline-title-divider-remove": false,
@@ -169,5 +169,7 @@
   "Editor@@h3-color-select": "h3-color-designated",
   "Editor@@h4-color-select": "h4-color-designated",
   "Editor@@h5-color-select": "h5-color-designated",
-  "Editor@@h6-color-select": "h6-color-designated"
+  "Editor@@h6-color-select": "h6-color-designated",
+  "Components@@CTA-BTN-enable": false,
+  "Components@@folder-font-bold": true
 }
