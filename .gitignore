@@ -23,3 +23,10 @@ Thumbs.db
 .obsidian/facets.json
 
 .obsidian/starred.json
+
+# Obsidian - 外观/主题/布局（避免互相覆盖）
+.obsidian/themes/
+.obsidian/snippets/
+.obsidian/appearance.json
+.obsidian/workspace*
+.obsidian/hotkeys.json
