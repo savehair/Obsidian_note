@@ -1179,17 +1179,17 @@ def plot_ci_bars(labels, means, lo, hi, out_png):
 ### 1.8.1 固定版本策略（你要求“具体版本”）
 
 为最大化可复现性，本报告建议用 conda 固定以下版本（均来自公开发行渠道页面）：  
-- `numpy==2.4.2`citeturn8view0  
-- `pandas==3.0.1`citeturn7view0  
-- `scipy==1.17.0`citeturn9view0  
-- `scikit-learn==1.8.0`citeturn10search0turn10search16  
-- `statsmodels==0.14.6`citeturn10search1  
-- `PyYAML==6.0.3`citeturn10search2turn10search18  
-- `simpy==4.1.1`（conda-forge 与 PyPI 同版本）citeturn3search0turn1search0  
-- `pulp==2.8.0`（可选 ILP）citeturn2view0turn0search10  
-- `pytest==9.0.2`citeturn3search12  
-- `matplotlib-base==3.10.8`citeturn11search1turn11search5  
-- `tqdm==4.67.3`citeturn11search12  
+- `numpy==2.4.2`
+- `pandas==3.0.1`
+- `scipy==1.17.0
+- `scikit-learn==1.8.0`
+- `statsmodels==0.14.6` 
+- `PyYAML==6.0.3`
+- `simpy==4.1.1`（conda-forge 与 PyPI 同版本） 
+- `pulp==2.8.0`（可选 ILP）
+- `pytest==9.0.2`  
+- `matplotlib-base==3.10.8`
+- `tqdm==4.67.3`  
 
 关于 conda 的基本用法/发行版说明可参考官方入门文档。citeturn3search14  
 
@@ -1223,7 +1223,7 @@ dependencies:
       - torchaudio==2.6.0
 ```
 
-> 注：在 conda 环境里安装 PyTorch 时，官方“Previous Versions”页面提供了**按 CUDA/ROCm/CPU**区分的 pip 指令（含 `--index-url`），你可以严格锁定到某个 CUDA wheel 仓库。citeturn14view2turn13view0  
+> 注：在 conda 环境里安装 PyTorch 时，官方“Previous Versions”页面提供了**按 CUDA/ROCm/CPU**区分的 pip 指令（含 `--index-url`），你可以严格锁定到某个 CUDA wheel 仓库。
 
 ### 1.8.3 一键安装命令（conda + PyTorch 固定版本）
 
