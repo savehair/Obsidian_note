@@ -1358,8 +1358,7 @@ def plot_pareto(df: pd.DataFrame, out_png: str):
 | SimPy priority 映射 | priority 越小越先获得资源（统计上更早开服） | 与 PriorityResource 定义一致citeturn14search3 |
 | γ–λ sweep | 网格输出文件齐全；可画热图/pareto | `grid_results.csv` 存在 |
 
-SimPy 的进程/事件基本概念（yield Timeout 等）可参考官方 intro。citeturn13search7turn13search15  
-
+SimPy 的进程/事件基本概念（yield Timeout 等）可参考官方 intro。
 ### 1.8.2 conda 环境与版本锁定
 
 你要求“具体版本 + conda/Anaconda 下载 + 可复现”。以下版本均从 conda-forge 的包页确认存在（以 2026-02-21 为参照）：  
