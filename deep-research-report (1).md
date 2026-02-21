@@ -604,7 +604,7 @@ def eval_interval(y_true: np.ndarray, p10: np.ndarray, p90: np.ndarray) -> dict:
     return {"覆盖率(P10,P90)": cover, "区间宽度(P90-P10)": width}
 ```
 
-（MAE/MSE 的输入形状、含义与边界值解释详见官方文档。）citeturn0search2turn13search1  
+（MAE/MSE 的输入形状、含义与边界值解释详见官方文档。） 
 
 ### 1.4.4 数据集与训练脚本（时间块切分）
 
